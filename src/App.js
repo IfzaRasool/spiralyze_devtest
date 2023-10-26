@@ -1,10 +1,15 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './styles.css';
+import Header from './components/header/header';
+import Hero from './components/hero/hero';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>welcome to reatct app</h1>
+    <div>
+      <Header/>
+      <Hero/>
     </div>
   );
 }

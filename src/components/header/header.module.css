@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+a:hover {
+  color: #fff !important;
+}
+
+.header {
+  width: 100%;
+  padding: 1.4rem 0;
+}
+
+.logo {
+  font-family: Montserrat;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav ul li a {
+  padding: 1rem 1.25rem;
+  font-size: 0.813rem;
+  color: #121212;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=header.module.css.map */
