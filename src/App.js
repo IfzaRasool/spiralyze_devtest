@@ -10,8 +10,8 @@ function App() {
     <div styles={{ width: '100%' }}>
       <div>
         <Hero />
-        <Carousel />
         <ThreeColumns />
+        <Carousel />
 
       </div>
     </div>
