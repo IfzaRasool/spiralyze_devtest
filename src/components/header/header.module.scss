@@ -1,10 +1,12 @@
 $white: #fff;
-$grey: #EAEAEA;
+$grey: #eaeaea;
 $trans: all 0.2s ease-in;
 
 a {
   text-decoration: none;
   transition: $trans;
+  color: rgba(255, 255, 255, 0.5);
+
   // font-weight: bold;
 
   &:hover {
@@ -46,10 +48,23 @@ a {
       a {
         padding: 1rem 1.25rem;
         font-size: 0.875rem;
-        color: $grey;
+        // color: $grey;
         letter-spacing: 1.9px;
+        font-weight: 700;
         text-transform: uppercase;
       }
     }
   }
+}
+.hr {
+  width: 1px;
+  height: 13px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.num {
+  color: #5bc8af;
+  font-weight: 700;
+}
+.consult{
+  color: white;
 }

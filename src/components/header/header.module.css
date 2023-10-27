@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
   transition: all 0.2s ease-in;
+  color: rgba(255, 255, 255, 0.5);
 }
 a:hover {
   color: #fff !important;
@@ -28,7 +29,22 @@ a:hover {
 .nav ul li a {
   padding: 1rem 1.25rem;
   font-size: 0.875rem;
-  color: #EAEAEA;
   letter-spacing: 1.9px;
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+.hr {
+  width: 1px;
+  height: 13px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.num {
+  color: #5bc8af;
+  font-weight: 700;
+}
+
+.consult {
+  color: white;
 }/*# sourceMappingURL=header.module.css.map */

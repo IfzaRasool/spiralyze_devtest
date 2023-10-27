@@ -116,11 +116,11 @@ const Header = () => {
               </a>
             </li>
             <li>
-                <span className={styles.nat_item}>|</span>
+                <span className={styles.nav_item}><hr className={styles.hr}/></span>
             </li>
             <li>
               <a href="/">
-                <span className={styles.nat_item}>CALL NOW FOR A CONSULT 123.456.7890</span>
+                <span className={styles.consult}>CALL NOW FOR A CONSULT <span className={styles.num}>123.456.7890</span></span>
               </a>
             </li>
           </ul>
