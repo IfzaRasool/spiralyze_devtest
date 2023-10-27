@@ -16,6 +16,7 @@ function App() {
         <Carousel />
         <FourthSec/>
         <Footer/>
+        <div class="font-effect">User</div>
       </div>
     </div>
   );

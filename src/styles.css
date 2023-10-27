@@ -11987,6 +11987,7 @@ textarea.form-control-lg {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #333;
 }
 
 .container {
@@ -12031,4 +12032,33 @@ body {
   --bs-gradient: none;
   width: 100%;
   height: 96px;
+}
+.btn-outline-success.height {
+  height: 52px;
+}
+
+.font-effect {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Adjust font weight as needed */
+  font-size: 36px; /* Adjust font size as needed */
+  -webkit-text-stroke: 1px #000; /* Text border width and color */
+  color: transparent; /* Makes the text transparent inside the border */
+}
+.font-effect.white {
+  -webkit-text-stroke: 1px #fff; /* Text border width and color */
+  font-size: 64px;
+}
+.font-effect.white .filled {
+  color: #fff;
+}
+.font-effect .filled {
+  color: #000;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }/*# sourceMappingURL=styles.css.map */

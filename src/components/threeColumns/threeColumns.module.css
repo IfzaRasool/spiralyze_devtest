@@ -1,5 +1,6 @@
 .threeCols {
-  background-color: "#F5F5F5";
+  background: #F5F5F5;
+  padding-bottom: 150px;
 }
 
 .col {
@@ -13,7 +14,7 @@
 }
 
 .hr {
-  width: 813px;
+  width: 100%;
   height: 1px;
-  color: black;
+  background: #EAEAEA;
 }/*# sourceMappingURL=threeColumns.module.css.map */
