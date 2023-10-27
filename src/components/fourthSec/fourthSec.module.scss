@@ -1,19 +1,23 @@
+$bg: '#F5F5F5';
+
 .threeCols {
-  background-color: "#F5F5F5";
+  background-color: '#F5F5F5';
 }
 
 .col {
-  padding-top: 61px;
-  padding-bottom: 36px;
+  padding-top: 32px;
+
+  button{
+    margin-top: 36px;
+  }
 }
 
 .img {
   width: -webkit-fill-available;
   border-radius: 8px;
 }
-
 .hr {
   width: 813px;
   height: 1px;
   color: black;
-}/*# sourceMappingURL=threeColumns.module.css.map */
+}

@@ -3,8 +3,10 @@
 }
 
 .col {
-  padding-top: 61px;
-  padding-bottom: 36px;
+  padding-top: 32px;
+}
+.col button {
+  margin-top: 36px;
 }
 
 .img {
@@ -16,4 +18,4 @@
   width: 813px;
   height: 1px;
   color: black;
-}/*# sourceMappingURL=threeColumns.module.css.map */
+}/*# sourceMappingURL=fourthSec.module.css.map */
