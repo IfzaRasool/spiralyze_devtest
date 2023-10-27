@@ -1,4 +1,17 @@
-.hero{
-    position: relative;
-    z-index: 1;
+
+$white: #fff;
+$grey: #EAEAEA;
+.hero {
+  background: url('../assets/hero-bg.png') center/cover no-repeat; /* Adjust the path and background properties as needed */
+  width: 100%; /* Set the width and height as needed */
+  height: 650px; /* Set the height as needed */
+  align-items: center;
+  color: $white;
+}
+
+// /* ContactForm.css */
+.contactform {
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2a7d6c 0%, rgba(62, 105, 96, 0.62) 100%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
 }

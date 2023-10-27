@@ -1,15 +1,19 @@
 // import logo from './logo.svg';
 // import './App.css';
 import './styles.css';
-import Header from './components/header/header';
 import Hero from './components/hero/hero';
-
+import ThreeColumns from './components/threeColumns/threeColumns';
+import Carousel from './components/carousel/carousel';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Hero/>
+    <div styles={{ width: '100%' }}>
+      <div>
+        <Hero />
+        <Carousel />
+        <ThreeColumns />
+
+      </div>
     </div>
   );
 }

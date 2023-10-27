@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
 
 $font: 'Montserrat', sans-serif;
 // $pale: #f5f6fa;
@@ -46,3 +48,13 @@ body {
   text-transform: uppercase;
   margin-bottom: 1.2rem;
 }
+
+// @media screen and (max-width: 1440px) {
+//   img{
+//     max-width: 100%;
+//     background-color: yellowgreen;
+//     border-color: black;
+
+//   }
+//   /* Your CSS styles for screens up to 1440 pixels wide go here */
+// }

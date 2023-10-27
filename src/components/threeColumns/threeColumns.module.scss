@@ -1,0 +1,24 @@
+$bg: '#F5F5F5';
+
+.threeCols {
+  background-color: '#F5F5F5';
+}
+
+.col {
+  padding-top: 61px;
+  padding-bottom: 130px;
+  //   &:nth-child(2) {
+  //     margin-left: 5px;
+  //     margin-right: 5px;
+  //   }
+}
+
+.img {
+  width: -webkit-fill-available;
+  border-radius: 8px;
+}
+.hr {
+  width: 813px;
+  height: 1px;
+  color: black;
+}
