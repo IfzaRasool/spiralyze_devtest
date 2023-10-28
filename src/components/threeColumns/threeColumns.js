@@ -81,7 +81,7 @@ const ThreeColumns = () => {
                 height="14"
                 viewBox="0 0 17 14"
                 fill="none"
-                className='ms-2'
+                className="ms-2"
               >
                 <path
                   fill-rule="evenodd"

@@ -1,22 +1,59 @@
 $white: #fff;
 $grey: #eaeaea;
-.row {
+.footer {
 margin-top: 100px;
+overflow-x: hidden;
 }
 
 .left_sec {
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="755" height="648" viewBox="0 0 755 648" fill="none"><path d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z" fill="url(%23paint0_linear_1_237)"/><defs><linearGradient id="paint0_linear_1_237" x1="377.5" y1="0" x2="377.5" y2="648" gradientUnits="userSpaceOnUse"><stop stop-color="%23305D52"/><stop offset="1" stop-color="%23153F38"/></linearGradient></defs></svg>') center/cover no-repeat; /* Adjust the path and background properties as needed */
-    width: 755px;
-    height: 648px;
+    // width: 855px;
+    // height: 648px;
     // align-items: center;
     color: $white;
+    z-index: 12;
+    border: 10px solid red;
+
 }
 
 .right_sec{
-    // align-items: center;
-    color: $white;
-    video{
-        width: -webkit-fill-available;
+    // width: 1000px;
+    border: 10px solid yellow;
+
+}
+
+.video_container {
+    position: relative;
+    left: -70px;
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
         height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            margin-top: 10px;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+
+    &:hover {
+        .overlay {
+            display: none;
+        }
     }
 }
+
