@@ -92,6 +92,7 @@ body {
   font-size: 36px; /* Adjust font size as needed */
   -webkit-text-stroke: 1px #000; /* Text border width and color */
   color: transparent; /* Makes the text transparent inside the border */
+  text-transform: capitalize;
   &.white{
   -webkit-text-stroke: 1px #fff; /* Text border width and color */
   font-size: 64px;

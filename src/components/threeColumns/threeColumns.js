@@ -39,7 +39,7 @@ const ThreeColumns = () => {
           <div className="col">
             <div className="d-flex align-content-center align-items-center gap-5  ">
               <div class="font-effect d-flex gap-2">
-                We <div className="filled">Understand</div>
+                WE <div className="filled">UNDERSTAND</div>
               </div>
               <hr className={styles.hr} />
             </div>

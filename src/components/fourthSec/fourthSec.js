@@ -6,7 +6,9 @@ const FourthSec = () => {
   return (
     <div className={styles.threeCols}>
       <div className="container">
-        <h1>WE CAN ORGANIZE EVERYTHING</h1>
+        <div class="font-effect d-flex gap-3">
+                WE <div className="filled">CAN ORGANIZE EVERYTHING</div>
+              </div>
         <div className="row">
           <div className={`col-4 ${styles.col}`}>
             <p>
