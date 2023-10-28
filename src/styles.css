@@ -12052,6 +12052,9 @@ body {
 .font-effect.white .filled {
   color: #fff;
 }
+.font-effect.white.size {
+  font-size: 44px;
+}
 .font-effect .filled {
   color: #000;
 }
@@ -12062,4 +12065,9 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+ul {
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M5.6 10.6L1.4 6.4L0 7.8L5.6 13.4L17.6 1.4L16.2 0L5.6 10.6Z" fill="%235BC8AF"/></svg>');
+  margin-top: 48px;
 }/*# sourceMappingURL=styles.css.map */

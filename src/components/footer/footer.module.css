@@ -7,11 +7,10 @@
   background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="755" height="648" viewBox="0 0 755 648" fill="none"><path d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z" fill="url(%23paint0_linear_1_237)"/><defs><linearGradient id="paint0_linear_1_237" x1="377.5" y1="0" x2="377.5" y2="648" gradientUnits="userSpaceOnUse"><stop stop-color="%23305D52"/><stop offset="1" stop-color="%23153F38"/></linearGradient></defs></svg>') center/cover no-repeat; /* Adjust the path and background properties as needed */
   color: #fff;
   z-index: 12;
-  border: 10px solid red;
 }
 
-.right_sec {
-  border: 10px solid yellow;
+.container {
+  padding-top: 95px;
 }
 
 .video_container {
@@ -20,7 +19,7 @@
 }
 .video_container video {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .video_container .overlay {
   position: absolute;

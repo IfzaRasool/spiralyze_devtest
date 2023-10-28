@@ -12,15 +12,20 @@ overflow-x: hidden;
     // align-items: center;
     color: $white;
     z-index: 12;
-    border: 10px solid red;
+
+
+}
+.container{
+    padding-top: 95px;
+// border: 10px solid red;
 
 }
 
-.right_sec{
-    // width: 1000px;
-    border: 10px solid yellow;
+// .right_sec{
+//     // width: 1000px;
+//     border: 10px solid yellow;
 
-}
+// }
 
 .video_container {
     position: relative;
@@ -28,7 +33,7 @@ overflow-x: hidden;
 
     video {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .overlay {
