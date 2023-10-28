@@ -12067,7 +12067,31 @@ p {
   line-height: 24px;
 }
 
-ul {
-  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M5.6 10.6L1.4 6.4L0 7.8L5.6 13.4L17.6 1.4L16.2 0L5.6 10.6Z" fill="%235BC8AF"/></svg>');
-  margin: 48px 95px;
+.video-popup {
+  position: relative;
+}
+.video-popup .popup-content {
+  display: none;
+  position: absolute;
+  bottom: 50%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  width: 100%;
+}
+.video-popup .popup-content.open {
+  display: block;
+}
+.video-popup .popup-content .close-button {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.video-popup .popup-content video {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=styles.css.map */

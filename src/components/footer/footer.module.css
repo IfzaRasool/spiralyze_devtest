@@ -1,6 +1,7 @@
 .footer {
   margin-top: 100px;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .left_sec {
@@ -39,6 +40,11 @@
   color: #fff;
   font-size: 18px;
 }
-.video_container:hover .overlay {
+.video_container:active .overlay {
   display: none;
+}
+
+.ul {
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M5.6 10.6L1.4 6.4L0 7.8L5.6 13.4L17.6 1.4L16.2 0L5.6 10.6Z" fill="%235BC8AF"/></svg>');
+  margin: 48px 95px;
 }/*# sourceMappingURL=footer.module.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":["fourthSec.module.scss","fourthSec.module.css"],"names":[],"mappings":"AAEA;EACE,2BAAA;ACDF;;ADIA;EACE,iBAAA;ACDF;ADGE;EACE,gBAAA;ACDJ;;ADKA;EACE,6BAAA;EACA,kBAAA;ACFF;;ADIA;EACE,YAAA;EACA,WAAA;EACA,YAAA;ACDF","file":"fourthSec.module.css"}
+{"version":3,"sources":["fourthSec.module.scss","fourthSec.module.css"],"names":[],"mappings":"AAEA;EACE,2BAAA;ACDF;;ADIA;EACE,iBAAA;ACDF;ADGE;EACE,gBAAA;EACA,WAAA;EACA,gBAAA;ACDJ;;ADKA;EACE,6BAAA;EACA,kBAAA;ACFF;;ADIA;EACE,YAAA;EACA,WAAA;EACA,YAAA;ACDF","file":"fourthSec.module.css"}

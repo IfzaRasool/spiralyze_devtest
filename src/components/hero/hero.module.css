@@ -1,9 +1,10 @@
 .hero {
   background: url("../assets/hero-bg.png") center/cover no-repeat; /* Adjust the path and background properties as needed */
   width: 100%; /* Set the width and height as needed */
-  min-height: 650px; /* Set the height as needed */
+  min-height: 70vh; /* Set the height as needed */
   align-items: center;
   color: white;
+  position: relative;
 }
 
 .contactform {
@@ -30,4 +31,19 @@
 }
 .contactform BUTTON:hover {
   background-color: #5bc8af;
+}
+
+.hero .svg {
+  margin-top: -7rem;
+  position: relative !important;
+}
+
+.hero .svg svg {
+  display: block;
+}
+
+.hero .svg .backsvg {
+  position: absolute !important;
+  top: -0.1rem;
+  left: 3rem;
 }/*# sourceMappingURL=hero.module.css.map */

@@ -47,18 +47,18 @@ const FourthSec = () => {
           </div>
           <div className={`col-4 ${styles.col}`}>
             <button className="btn btn-outline-success">
-              Needs Assessment
+            Treatment Planning & Placement
             </button>
             <button className="btn btn-outline-success">
-              Insurance Advocacy
+            Employment Advocacy
             </button>
           </div>
           <div className={`col-4 ${styles.col}`}>
             <button className="btn btn-outline-success">
-              Needs Assessment
+            Transportation & Logistics
             </button>
             <button className="btn btn-outline-success">
-              Insurance Advocacy
+            Aftercare Planning
             </button>
           </div>
         </div>
