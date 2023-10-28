@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './footer.module.scss';
-import trailvideo from '../assets/demomovie.mp4';
+// import trailvideo from '../assets/demomovie.mp4';
+import footer2 from '../assets/footer2.png'
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className="row">
         <div className={`col-6 ${styles.left_sec}`}>
-          <div className={`container ${styles.container}`}>
-            <div class="font-effect white size d-flex gap-3">
+          <div className="container">
+            <div class={`font-effect white size d-flex gap-3 ${styles.video_heading}`}>
               WATCH <div className="filled"> THE VIDEO</div>
             </div>
             <ul>
@@ -26,8 +27,25 @@ const Footer = () => {
           </div>
         </div>
         <div className={`col-6 ${styles.right_sec}`}>
+          {/* <div className={`${styles.container}`}>
+            <div class="font-effect white size d-flex gap-3">
+              WATCH <div className="filled"> THE VIDEO</div>
+            </div>
+            <ul>
+              <li>
+                <h4>Needs Assessment</h4>
+                <p>The Advocacy Evaluation Toolkit contains the instruments used to collect data for evaluating the Consumer Voices for Coverage program. </p>
+              </li>
+              <li><h4>Insurance Advocacy</h4>
+                <p>We are committed to advocating for appropriate coverage and payment policies.</p>
+              </li>
+              <li><h4>Treatment Planning & Placement</h4>
+                <p>Patients can better understand medical procedures, discharge instructions, etc.</p>
+              </li>
+            </ul>
+          </div> */}
           <div class={styles.video_container}>
-            <video src={trailvideo} controls></video>
+            <img src={footer2} alt="images" />
             <div class={styles.overlay}>
               <div class={styles.play_button}>
                 <svg
