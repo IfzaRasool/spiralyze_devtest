@@ -1,6 +1,13 @@
+import React, { useState } from 'react';
 import styles from './header.module.scss';
 
+
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className={styles.header}>
       <div className={`container ${styles.flex} `}>
@@ -99,7 +106,7 @@ const Header = () => {
             </a>
           </div>
 
-          <ul>
+          <ul className="d-md-block d-none">
             <li>
               <a href="/">
                 <span className={styles.nat_item}>Home</span>
@@ -116,18 +123,36 @@ const Header = () => {
               </a>
             </li>
             <li>
-                <span className={styles.nav_item}><hr className={styles.hr}/></span>
+              <span className={styles.nav_item}>
+                <hr className={styles.hr} />
+              </span>
             </li>
             <li>
               <a href="/">
-                <span className={styles.consult}>CALL NOW FOR A CONSULT <span className={styles.num}>123.456.7890</span></span>
+                <span className={styles.consult}>
+                  CALL NOW FOR A CONSULT{' '}
+                  <span className={styles.num}>123.456.7890</span>
+                </span>
               </a>
             </li>
           </ul>
 
+          <div className={`${styles.hamburger_menu} ${isOpen ? 'open' : ''}`}>
+            <div className={`${styles.hamburger_icon}`} onClick={toggleMenu}>
+              <div className="bar"></div>
+              <div className="bar"></div>
+              <div className="bar"></div>
+            </div>
+            <ul className={`${styles.menu_list}`}>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
           {/* <div className={styles.avatar}></div> */}
         </div>
-        
       </div>
     </header>
   );

@@ -46,7 +46,7 @@ const ThreeColumns = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-6">
             <p className="">
               Older adults want to play active and meaningful roles in their
               lives, including as part of a social network, a neighborhood, and
@@ -56,7 +56,7 @@ const ThreeColumns = () => {
               important.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-6">
             <p className="">
               Older adults want to play active and meaningful roles in their
               lives, including as part of a social network, a neighborhood, and
@@ -66,7 +66,7 @@ const ThreeColumns = () => {
               important.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4">
             <p className="">
               To stimulate social contacts, neighborhood initiatives can be
               developed. Social meeting places, such as pubs and churches can

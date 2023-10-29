@@ -49,7 +49,7 @@ const Hero = () => {
         <Header />
         <div className="container">
           <div className="row align-items-center ">
-            <div className="col-6">
+            <div className="col-lg-6 col-sm-12">
               <div class="font-effect white">
                 GET AN <div className="filled">INTERVENTION</div>
               </div>
@@ -61,7 +61,7 @@ const Hero = () => {
                 as possible.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6 col-sm-12">
               <Container className={styles.contactform} maxWidth="xs">
                 <h3>Contact Us</h3>
                 <form onSubmit={handleSubmit}>
@@ -75,6 +75,10 @@ const Hero = () => {
                         required
                         value={formData.firstName}
                         onChange={handleInputChange}
+                        sx={{
+                          input: { color: 'white' },
+                          label: { color: 'white' },
+                        }}
                       />
                     </Grid>
                     <Grid item xs={6}>
@@ -86,6 +90,10 @@ const Hero = () => {
                         required
                         value={formData.lastName}
                         onChange={handleInputChange}
+                        sx={{
+                          input: { color: 'white' },
+                          label: { color: 'white' },
+                        }}
                       />
                     </Grid>
                     <Grid item xs={6}>
@@ -115,6 +123,10 @@ const Hero = () => {
                         onChange={handleInputChange}
                         InputProps={`className:${styles.label}`} // Change text color
                         InputLabelProps={styles.label} // Change label color
+                        sx={{
+                          input: { color: 'white' },
+                          label: { color: 'white' },
+                        }}
                       />
                     </Grid>
                     <Grid item xs={12}>
@@ -127,6 +139,10 @@ const Hero = () => {
                         required
                         value={formData.country}
                         onChange={handleInputChange}
+                        sx={{
+                          input: { color: 'white' },
+                          label: { color: 'white' },
+                        }}
                       >
                         <MenuItem value="usa">USA</MenuItem>
                         <MenuItem value="canada">Canada</MenuItem>
