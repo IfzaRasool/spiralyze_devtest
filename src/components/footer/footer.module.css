@@ -5,10 +5,14 @@
 }
 
 .left_sec {
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="755" height="648" viewBox="0 0 755 648" fill="none"><path d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z" fill="url(%23paint0_linear_1_237)"/><defs><linearGradient id="paint0_linear_1_237" x1="377.5" y1="0" x2="377.5" y2="648" gradientUnits="userSpaceOnUse"><stop stop-color="%23305D52"/><stop offset="1" stop-color="%23153F38"/></linearGradient></defs></svg>') center/cover no-repeat; /* Adjust the path and background properties as needed */
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="755" height="648" viewBox="0 0 755 648" fill="none"><path d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z" fill="url(%23paint0_linear_1_237)"/><defs><linearGradient id="paint0_linear_1_237" x1="377.5" y1="0" x2="377.5" y2="648" gradientUnits="userSpaceOnUse"><stop stop-color="%23305D52"/><stop offset="1" stop-color="%23153F38"/></linearGradient></defs></svg>') no-repeat; /* Adjust the path and background properties as needed */
   width: 755px;
   color: #fff;
   z-index: 12;
+}
+
+.svgcurve svg {
+  display: none;
 }
 
 .video_heading {
@@ -20,15 +24,14 @@
   left: -70px;
 }
 .video_container img {
-  width: 855px;
   height: 600px;
 }
 .video_container .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 855px;
   height: 100%;
+  width: 755px;
   background: rgba(25, 77, 68, 0.3);
   display: flex;
   flex-direction: column;
@@ -37,8 +40,12 @@
 }
 .video_container .overlay .text {
   margin-top: 10px;
-  color: #fff;
+  color: black;
   font-size: 18px;
+  z-index: 20;
+  position: absolute;
+  top: 90%;
+  right: 10%;
 }
 .video_container:active .overlay {
   display: none;
@@ -47,4 +54,33 @@
 .ul {
   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M5.6 10.6L1.4 6.4L0 7.8L5.6 13.4L17.6 1.4L16.2 0L5.6 10.6Z" fill="%235BC8AF"/></svg>');
   margin: 48px 95px;
+}
+
+@media (max-width: 991.98px) {
+  .left_sec {
+    background: #194d44;
+    width: 100%;
+  }
+  .footer .svgcurve svg {
+    display: block;
+    background: #194d44;
+    top: 0px;
+    position: relative;
+  }
+  .video_container img {
+    position: relative;
+    top: -60px;
+    z-index: 12;
+  }
+  .video_container .overlay {
+    top: -60px;
+  }
+  .video_container .overlay .text {
+    right: 50%;
+  }
+  .play_button {
+    z-index: 20;
+    position: relative;
+    top: -18rem;
+  }
 }/*# sourceMappingURL=footer.module.css.map */
