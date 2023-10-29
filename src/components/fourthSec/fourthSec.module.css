@@ -1,0 +1,23 @@
+.threeCols {
+  background-color: "#F5F5F5";
+}
+
+.col {
+  padding-top: 32px;
+}
+.col button {
+  margin-top: 36px;
+  color: #333;
+  font-weight: 700;
+}
+
+.img {
+  width: -webkit-fill-available;
+  border-radius: 8px;
+}
+
+.hr {
+  width: 813px;
+  height: 1px;
+  color: black;
+}/*# sourceMappingURL=fourthSec.module.css.map */

@@ -1,0 +1,50 @@
+.hero {
+  background: url("../assets/hero-bg.png") center/cover no-repeat; /* Adjust the path and background properties as needed */
+  width: 100%; /* Set the width and height as needed */
+  min-height: 70vh; /* Set the height as needed */
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.contactform {
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2a7d6c 0%, rgba(62, 105, 96, 0.62) 100%);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+  color: white;
+  padding: 51px 28px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contactform h3 {
+  padding-bottom: 34px;
+}
+.contactform BUTTON {
+  width: 221px;
+  height: 56px;
+  margin-top: 41px;
+  border-radius: 4px;
+  background-color: #5bc8af;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+}
+.contactform BUTTON:active {
+  background-color: #35BB9C;
+}
+.contactform BUTTON:hover {
+  background-color: #5bc8af;
+}
+
+.hero .svg {
+  margin-top: -7rem;
+  position: relative !important;
+}
+
+.hero .svg svg {
+  display: block;
+}
+
+.hero .svg .backsvg {
+  position: absolute !important;
+  top: -0.1rem;
+  left: 3rem;
+}/*# sourceMappingURL=hero.module.css.map */
