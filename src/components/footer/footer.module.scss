@@ -25,8 +25,6 @@ $grey: #eaeaea;
 
   img {
     height: 600px;
-
-    // padding: 95px;
   }
 
   .overlay {
@@ -51,11 +49,6 @@ $grey: #eaeaea;
       right: 10%;
     }
   }
-  // &:hover {
-  //     .overlay {
-  //         display: none;
-  //     }
-  // }
   &:active {
     .overlay {
       display: none;
