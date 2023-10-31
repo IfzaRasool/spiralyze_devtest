@@ -2,11 +2,12 @@ $white: #fff;
 $grey: #eaeaea;
 .hero {
   background: url('../assets/hero-bg.png') center/cover no-repeat; /* Adjust the path and background properties as needed */
-  width: 100%; /* Set the width and height as needed */
+  max-width: 100%; /* Set the width and height as needed */
   min-height: 70vh; /* Set the height as needed */
   align-items: center;
   color: white;
   position: relative;
+  overflow-x: hidden;
 }
 
 // /* ContactForm.css */
