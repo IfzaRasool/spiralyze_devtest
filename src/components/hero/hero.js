@@ -53,7 +53,7 @@ const Hero = () => {
               <div class="font-effect white">
                 GET AN <div className="filled">INTERVENTION</div>
               </div>
-              <p className='pe-5'>
+              <p className="pe-5">
                 Showing greater respect to older adults can be done in several
                 ways : acknowledging and putting to use the talents and skills
                 of older adults; creating intergenerational initiatives; and
@@ -119,10 +119,8 @@ const Hero = () => {
                         variant="outlined"
                         fullWidth
                         required
-                        value={formData.Company}
+                        value={formData.company}
                         onChange={handleInputChange}
-                        InputProps={`className:${styles.label}`} // Change text color
-                        InputLabelProps={styles.label} // Change label color
                         sx={{
                           input: { color: 'white' },
                           label: { color: 'white' },
@@ -143,24 +141,26 @@ const Hero = () => {
                           input: { color: 'white' },
                           label: { color: 'white' },
                         }}
+                        SelectProps={{
+                          sx: { color: 'White' }, // Change 'red' to the desired text color
+                        }}
                       >
-                        <MenuItem value="usa">USA</MenuItem>
+                        <MenuItem value="usa" sx={{ color: 'red' }}>
+                          USA
+                        </MenuItem>
                         <MenuItem value="canada">Canada</MenuItem>
                         <MenuItem value="uk">UK</MenuItem>
                       </TextField>
                     </Grid>
                   </Grid>
-                  <Button
-                    type="submit"
-                    variant="contained"
-                  >
+                  <Button type="submit" variant="contained">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      className='pe-2'
+                      className="pe-2"
                     >
                       <g clip-path="url(#clip0_1_118)">
                         <path
@@ -189,10 +189,21 @@ const Hero = () => {
         </div>
 
         <div className={styles.svg}>
-          <svg viewBox="0 0 1440 320"><path fill="#F5F5F5" fill-opacity="1" d="M0,192L80,170.7C160,149,320,107,480,112C640,117,800,171,960,186.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-          <svg className={styles.backsvg} viewBox="0 0 1440 320"><path fill="#F5F5F5" fill-opacity="0.4" d="M0,192L80,170.7C160,149,320,107,480,112C640,117,800,171,960,186.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+          <svg viewBox="0 0 1440 320">
+            <path
+              fill="#F5F5F5"
+              fill-opacity="1"
+              d="M0,192L80,170.7C160,149,320,107,480,112C640,117,800,171,960,186.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+          </svg>
+          <svg className={styles.backsvg} viewBox="0 0 1440 320">
+            <path
+              fill="#F5F5F5"
+              fill-opacity="0.4"
+              d="M0,192L80,170.7C160,149,320,107,480,112C640,117,800,171,960,186.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+          </svg>
         </div>
-
       </div>
     </div>
   );
