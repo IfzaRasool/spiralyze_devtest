@@ -10,13 +10,13 @@ const FourthSec = () => {
                 WE <div className="filled">CAN ORGANIZE EVERYTHING</div>
               </div>
         <div className="row">
-          <div className={`col-4 ${styles.col}`}>
-            <p>
-              Interventions should focus on older adult’s desire for
+          <div className={`col-md-4 col-xs-12 ${styles.col}`}>
+            <p className='fst-italic'>
+              <span className='fw-bold'>Interventions</span> should focus on older adult’s desire for
               connectedness, participation and independence.
             </p>
             </div>
-            <div className={`col-4 ${styles.col}`}>
+            <div className={`col-md-4 col-xs-6 ${styles.col}`}>
             <p>
               Loneliness and social isolation are growing public health concerns
               in our aging society. Whilst these experiences occur across the
@@ -26,7 +26,7 @@ const FourthSec = () => {
               isolation among older adults.
             </p>
             </div>
-            <div className={`col-4 ${styles.col}`}>
+            <div className={`col-md-4 col-xs-6 ${styles.col}`}>
             <p>
               The methodology framework proposed by Asked and O’Malley and
               further developed by Levac, et al. was used to guide the scoping
@@ -37,7 +37,7 @@ const FourthSec = () => {
             </div>
           </div>
           <div className='row'>
-          <div className={`col-4 ${styles.col}`}>
+          <div className={`col-md-4 col-sm-6 ${styles.col}`}>
             <button className="btn btn-outline-success">
               Needs Assessment
             </button>
@@ -45,7 +45,7 @@ const FourthSec = () => {
               Insurance Advocacy
             </button>
           </div>
-          <div className={`col-4 ${styles.col}`}>
+          <div className={`col-md-4 col-sm-6 ${styles.col}`}>
             <button className="btn btn-outline-success">
             Treatment Planning & Placement
             </button>
@@ -53,7 +53,7 @@ const FourthSec = () => {
             Employment Advocacy
             </button>
           </div>
-          <div className={`col-4 ${styles.col}`}>
+          <div className={`col-md-4 col-sm-12 ${styles.col}`}>
             <button className="btn btn-outline-success">
             Transportation & Logistics
             </button>
